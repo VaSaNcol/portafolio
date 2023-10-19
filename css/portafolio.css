@@ -12,11 +12,13 @@ div.contenedor2
 }
 div.item1
 {
-    background-color: #FDEAFF;
+    background-image: url("../img/fondoladrillo.jpg");
+    /* background-color: #FDEAFF; */
+    background-repeat: repeat;
     border-radius: 50px;
     border: 1px solid #346481;
-    padding: 0%;
-    width: 70%;
+    padding: 20px;
+    width: 67%;
     margin: 0 15%;
     font-size: 25px;
 }
