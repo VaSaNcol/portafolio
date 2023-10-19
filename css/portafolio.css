@@ -1,0 +1,140 @@
+div.contenedor1
+{
+    background-color: rgba(102, 255, 246, 0.20);
+    border-radius: 20px;
+}
+div.contenedor2
+{
+    background-color: rgba(217, 217, 217, 0.50);
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 10%;
+}
+div.item1
+{
+    background-color: #FDEAFF;
+    border-radius: 50px;
+    border: 1px solid #346481;
+    padding: 0%;
+    width: 70%;
+    margin: 0 15%;
+    font-size: 25px;
+}
+div.item2
+{
+    background-color: rgba(122, 161, 245, 0.50);
+    border-radius: 50px;
+    border: 1px solid #346481;
+    padding: 0%;
+    width: 70%;
+    margin: 0 15%;
+    font-size: 25px;
+}
+div.item3
+{
+    background-color: #FDEAFF;
+    border-radius: 50px;
+    border: 1px solid #346481;
+    padding: 0%;
+    width: 70%;
+    margin: 0 15%;
+    font-size: 25px;
+}
+div.item4
+{
+    background-color: rgba(122, 161, 245, 0.50);
+    border-radius: 50px;
+    border: 1px solid #346481;
+    padding: 0%;
+    width: 70%;
+    margin: 0 15%;
+    font-size: 25px;
+}
+div.texto-mediano
+{
+    border: 1px solid #346481;
+    text-align: center;
+    padding: 0px;
+    /* padding: 10px; */
+    background-color: azure;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 10%;
+}
+div.texto-final
+{
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+}
+span.parrafo-final
+{
+    font-size: 20px;
+    color: #346481;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.contacto
+{
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.50);
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 25%;
+}
+table
+{
+    /* width: 80%;
+    margin: 0 10% 0 10%; */
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 0px solid #346481;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    width: 100;
+}
+.img-port
+{
+    width: 200px;
+    margin: 0 auto;
+}
+span.texto-mediano
+{
+    font-size: 25px;
+    text-align: center;
+    
+}
+p.texto-perfil
+{
+    font-size: 30px;
+    
+}
+img.foto-perfil
+{
+width: 250px;
+}
+h1
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+h3
+{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+p
+{
+    font-size: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li
+{
+    text-align: left;
+}
