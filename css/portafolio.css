@@ -99,8 +99,8 @@ div.contacto
     text-align: center;
     background-color: rgba(217, 217, 217, 0.50);
     border-radius: 20px;
-    width: 50%;
-    margin: 0 25%;
+    width: 70%;
+    margin: 0 15%;
     font-size: x-large;
 }
 table
@@ -173,7 +173,7 @@ div.listado-items
 }
 .listadoitems
 {
-    background-color: rgb(209, 185, 168);
+    background-color: rgb(250, 226, 209);
     width: 80%;
     margin: auto;
     font-size: x-large;
