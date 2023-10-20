@@ -10,10 +10,29 @@ div.contenedor2
     width: 80%;
     margin: 0 10%;
 }
+div.item
+{
+/*    background-image: url("../img/fondoladrillo.jpg"); */
+    background-repeat: repeat;
+    border-radius: 50px;
+    border: 1px solid #346481;
+    padding: 0px;
+    width: 67%;
+    margin: 0 15%;
+    font-size: 25px;
+}
+p.textointerno
+{
+    margin: 10%;
+}
+.conimg
+{
+    margin: 500px;
+}
 div.item1
 {
-    background-image: url("../img/fondoladrillo.jpg");
-    /* background-color: #FDEAFF; */
+/*    background-image: url("../img/fondoladrillo.jpg"); */
+    background-color: #FDEAFF;
     background-repeat: repeat;
     border-radius: 50px;
     border: 1px solid #346481;
@@ -27,7 +46,7 @@ div.item2
     background-color: rgba(122, 161, 245, 0.50);
     border-radius: 50px;
     border: 1px solid #346481;
-    padding: 0%;
+    padding: 20px;
     width: 70%;
     margin: 0 15%;
     font-size: 25px;
@@ -82,6 +101,7 @@ div.contacto
     border-radius: 20px;
     width: 50%;
     margin: 0 25%;
+    font-size: x-large;
 }
 table
 {
@@ -95,8 +115,9 @@ td
     border: 0px solid #346481;
     border-collapse: collapse;
     text-align: center;
-    padding: 15px;
+    padding: 35px;
     width: 100;
+    /* margin: 5000px;*/ 
 }
 .img-port
 {
@@ -139,4 +160,42 @@ p
 li
 {
     text-align: left;
+}
+div.footer
+{
+    text-align: center;
+    width: 100%;
+}
+div.listado-items
+{
+    width: 100%;
+    
+}
+.listadoitems
+{
+    background-color: rgb(209, 185, 168);
+    width: 80%;
+    margin: auto;
+    font-size: x-large;
+    border-radius: 40px;
+}
+.color1
+{
+    background-color: #FDEAFF;
+}
+.color2
+{
+    background-color: #88a9f0;
+}
+.color3
+{
+    background-color: #FDEAFF;
+}
+.color4
+{
+    background-color: #FDEAFF;
+}
+.saltodelinea
+{
+    margin: 150px;
 }
