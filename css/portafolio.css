@@ -17,8 +17,19 @@ div.item
     border-radius: 50px;
     border: 1px solid #346481;
     padding: 0px;
-    width: 67%;
-    margin: 0 15%;
+    width: 65%;
+    margin: 0 17.5%;
+    font-size: 25px;
+}
+div.itemb
+{
+/*    background-image: url("../img/fondoladrillo.jpg"); */
+    background-repeat: repeat;
+    border-radius: 50px;
+    border: 0px solid #346481;
+    padding: 0px;
+    width: 80%;
+    margin: 0 10%;
     font-size: 25px;
 }
 p.textointerno
@@ -57,7 +68,7 @@ div.item3
     border-radius: 50px;
     border: 1px solid #346481;
     padding: 0%;
-    width: 70%;
+    width: 250px;
     margin: 0 15%;
     font-size: 25px;
 }
@@ -90,9 +101,10 @@ div.texto-final
 }
 span.parrafo-final
 {
-    font-size: 20px;
+    font-size: 30px;
     color: #346481;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 15;
 }
 div.contacto
 {
@@ -144,6 +156,7 @@ h1
     text-align: center;
     padding-top: 20px;
     padding-bottom: 1px;
+    font-size: 60px;
 }
 h3
 {
@@ -173,11 +186,15 @@ div.listado-items
 }
 .listadoitems
 {
+    border-color: aqua solid;
+    border-collapse: collapse;
+    border-width: 10px;
     background-color: rgb(250, 226, 209);
     width: 80%;
     margin: auto;
     font-size: x-large;
     border-radius: 40px;
+    
 }
 .color1
 {
