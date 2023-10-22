@@ -108,12 +108,15 @@ span.parrafo-final
 }
 div.contacto
 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-color: rgba(217, 217, 217, 0.50);
     border-radius: 20px;
     width: 70%;
     margin: 0 15%;
     font-size: x-large;
+    align-items: center;
 }
 table
 {
@@ -129,6 +132,7 @@ td
     text-align: center;
     padding: 35px;
     width: 100;
+    
     /* margin: 5000px;*/ 
 }
 .img-port
@@ -181,19 +185,22 @@ div.footer
 }
 div.listado-items
 {
-    width: 100%;
-    
+    width: 60%;
+    background-color: rgb(250, 226, 209);
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 0 20%;
 }
-.listadoitems
+td.listadoitems
 {
     border-color: aqua solid;
     border-collapse: collapse;
-    border-width: 10px;
-    background-color: rgb(250, 226, 209);
-    width: 80%;
+    border-width: 0px;
     margin: auto;
+    width: 250px;
     font-size: x-large;
-    border-radius: 40px;
+    
     
 }
 .color1
