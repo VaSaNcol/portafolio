@@ -3,6 +3,20 @@ div.contenedor1
     background-color: rgba(102, 255, 246, 0.20);
     border-radius: 20px;
 }
+div.secciones
+{
+    height: 550px;
+    width: 100%;
+    border-color: aquamarine solid;
+    border-width: 0px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
 div.contenedor2
 {
     background-color: rgba(217, 217, 217, 0.50);
@@ -95,8 +109,11 @@ div.texto-mediano
 }
 div.texto-final
 {
+    display: flex;
     text-align: center;
+    align-items: center;
     width: 70%;
+    height: 100%;
     margin: 0 15%;
 }
 span.parrafo-final
@@ -161,6 +178,7 @@ h1
     padding-top: 20px;
     padding-bottom: 1px;
     font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h3
 {
@@ -182,6 +200,7 @@ div.footer
 {
     text-align: center;
     width: 100%;
+    margin: 0;
 }
 div.listado-items
 {
