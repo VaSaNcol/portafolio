@@ -5,7 +5,7 @@ div.contenedor1
 }
 div.secciones
 {
-    height: 550px;
+ /*    height: 550px; */
     width: 100%;
     border-color: aquamarine solid;
     border-width: 0px;
@@ -16,6 +16,7 @@ div.secciones
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+    padding: 5% 0;
 }
 div.contenedor2
 {
@@ -137,10 +138,12 @@ div.contacto
 }
 table
 {
-    /* width: 80%;
-    margin: 0 10% 0 10%; */
-    border-collapse: collapse;
+    /* width: 80%; */
+    margin: 0 10% 0 10%; 
+    border-collapse: collapse; 
+
 }
+
 
 td
 {
