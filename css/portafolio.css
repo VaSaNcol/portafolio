@@ -24,6 +24,17 @@ div.contenedor1 {
     border: 1px solid #449acf;
     border-radius: 20px 20px 0 0;
 }
+.centrarelementos {
+    width: 100%;
+    position: absolute;
+}
+
+.imgvision {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border-radius: 40px;
+}
 .navclass
 {
     display: flex;
