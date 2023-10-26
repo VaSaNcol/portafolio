@@ -35,7 +35,7 @@ div.contenedor1 {
     width: 300px;
     border-radius: 40px;
 }
-.navclass
+nav.navclass
 {
     display: flex;
     justify-content: center;
@@ -220,7 +220,19 @@ td {
 
     /* margin: 5000px;*/
 }
-
+.tablecontacto {
+    /* width: 80%; */
+    margin: 0 10% 0 10%;
+    border-collapse: collapse;
+}
+.tdcontacto
+{
+    border: 0px solid #346481;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    width: 100;
+}
 .img-port {
     width: 200px;
     margin: 0 auto;
