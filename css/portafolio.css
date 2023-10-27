@@ -26,7 +26,7 @@ div.contenedor1 {
 }
 .centrarelementos {
     width: 100%;
-    position: absolute;
+    position: relative;    
 }
 
 .imgvision {
@@ -193,16 +193,19 @@ span.parrafo-final {
 }
 
 div.contacto {
+    width: 70%;
+    background-color: rgba(217, 217, 217, 0.5);
+    border: 1px solid #346481;
+    border-radius: 20px;
+    margin: 0 0%;
+    font-size: x-large;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-    background-color: rgba(217, 217, 217, 0.5);
-    border-radius: 20px;
-    width: 70%;
-    margin: 0 15%;
-    font-size: x-large;
+    gap: 2rem;
     align-items: center;
-    border: 1px solid #346481;
+    flex-wrap: wrap;
 }
 
 table {
@@ -341,7 +344,7 @@ td.tdtextoperfil {
 
 
 div.contenedorflex1 {
-    width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -425,12 +428,11 @@ div.contenedorflex1 {
 
 .redesflex
 {
-
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: space-evenly;    
     gap: 10px;
     align-items: center;
     
@@ -440,9 +442,8 @@ div.contenedorflex1 {
 {
     border: 0px solid #346481;
     border-collapse: collapse;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
+    padding: 0px;
+    width: 48px;
 }
 
 .cienporciento
@@ -453,11 +454,24 @@ width: 100%;
 .contactocolumnader
 {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 100px;
+    width: 60%;
 }
 
 .bloquecontacto
 {
     width: 200px;
+}
+.bloquelistacontacto
+{
+    width: 100%;
+}
+.contenedor {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
