@@ -28,13 +28,6 @@ div.contenedor1 {
     width: 100%;
     position: relative;    
 }
-
-.imgvision {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    border-radius: 40px;
-}
 nav.navclass
 {
     display: flex;
@@ -185,7 +178,7 @@ div.texto-final {
 }
 
 span.parrafo-final {
-    font-size: 30px;
+    font-size: 20px;
     color: #346481;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
@@ -247,7 +240,7 @@ span.texto-mediano {
 }
 
 p.texto-perfil {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 img.foto-perfil {
@@ -264,12 +257,17 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     margin: 0px;
 }
-
-h3 {
+h2 {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 30px;
+    font-size: 25px;
+}
+    h3 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 25px;
 }
 
 p {
@@ -292,24 +290,25 @@ div.listado-items {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-evenly;
+    justify-content: center;
 
     width: 60%;
     background-color: rgb(250, 226, 209);
     display: flex;
-    justify-content: center;
     border-radius: 40px;
     margin: 0 20%;
     border: 1px solid #346481;
 }
 
 .listadoitems {
+    justify-items: auto;
     border-color: 1px aqua solid;
     border-collapse: collapse;
     border-width: 0px;
     margin: auto;
-    width: 150px;
-    font-size: x-large;
-    text-shadow: #346481;
+    width: 200px;
+    font-size: 20px;    
+    text-align: start;
 }
 
 .color1 {
@@ -449,4 +448,44 @@ width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
+}
+.seccionvision
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;    
+    border-color: 1px aquamarine solid;
+    border-width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 0;
+    scroll-margin-top: 147px;
+}
+.titulovision
+{
+    width: 100%;  
+}
+.contenidovision
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;  
+}
+.bloqueimgvision
+{
+    width: 200px;
+}
+.imgvision {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 40px;
 }
