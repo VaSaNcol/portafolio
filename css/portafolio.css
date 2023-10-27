@@ -15,7 +15,7 @@ div.contenedor1 {
     padding: 0;
 }
 .headerymenu {
-    width: auto;        
+    width: 100%;        
     position: absolute;
     position: -webkit-sticky;
     position: sticky;  
@@ -54,10 +54,10 @@ nav li a {
     display: block;
     color: #245370;
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 10px;
 }
 
@@ -260,7 +260,7 @@ h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 1px;
-    font-size: 60px;
+    font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     margin: 0px;
 }
@@ -288,6 +288,11 @@ div.footer {
 }
 
 div.listado-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+
     width: 60%;
     background-color: rgb(250, 226, 209);
     display: flex;
@@ -297,12 +302,12 @@ div.listado-items {
     border: 1px solid #346481;
 }
 
-td.listadoitems {
-    border-color: aqua solid;
+.listadoitems {
+    border-color: 1px aqua solid;
     border-collapse: collapse;
     border-width: 0px;
     margin: auto;
-    width: 250px;
+    width: 150px;
     font-size: x-large;
     text-shadow: #346481;
 }
@@ -349,7 +354,7 @@ div.contenedorflex1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    gap: 2rem;
     
     background-color: rgba(102, 255, 246, 0.2);
     border-radius: 20px;
@@ -357,36 +362,6 @@ div.contenedorflex1 {
     margin: 8px 0 0 0;
     padding: 0;
 }
-
-.contenedorheadergrid
-{
-    width: 70%;
-    border: #e4159f solid;
-    background-color: rgba(102, 255, 246, 0.2);
-    border-radius: 20px;
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-column-gap: 2rem;
-    
-    
-}
-.fotoperfilcontgrid
-{
-    border: #e4159f solid;
-    width: 50%; 
-    margin: 0px;
-    padding: 0%;
-    grid-column: 1/2;
-}
-.textoperfilcontgrid
-{
-    width: 100%;
-    border: #e4159f solid;
-    margin: 0px;
-    padding: 3%;
-    grid-column: 2/3;
-}
-
 
 
 
@@ -417,7 +392,7 @@ div.contenedorflex1 {
     width: 57%;
     border: 0px #e4159f solid;
     margin: 0px;
-    padding: 3%;
+    padding: 3% 3% 3% 0;
     text-align: center;
     grid-column: 2/3;
 }
