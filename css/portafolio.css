@@ -226,7 +226,42 @@ div.contacto {
     align-items: center;
     flex-wrap: wrap;
 }
-
+.formulario
+{
+    width: 40%;
+    background-color: rgba(217, 217, 217, 0.5);
+    border: 1px solid #346481;
+    border-radius: 20px;
+    margin: 0 0 1rem 0;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 0rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fieldform
+{
+    border-radius: 20px; 
+    width: 50%;
+}
+.fieldformtextarea
+{
+    border-radius: 20px; 
+    width: 70%;
+    
+}
+.textofieldform
+{
+    text-align: left;
+    font-size: 20px;
+}
+.form1
+{
+    width: 70%;
+}
 table {
     /* width: 80%; */
     margin: 0 10% 0 10%;
