@@ -246,6 +246,7 @@ div.contacto {
 {
     border-radius: 20px; 
     width: 50%;
+    justify-items: right;
 }
 .fieldformtextarea
 {
